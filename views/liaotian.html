@@ -1,0 +1,15 @@
+<div class="list" id="liaotian" ng-controller="index5Ctrl">
+  <ul>
+	<li class="item" id="ltlist" ng-repeat="v in jilu">
+		<div class="img" ng-if="!v.isme" ng-class="{me:v.isme}"><img src="{{duifang}}" alt="">
+		</div>
+		<div class="img" ng-if="v.isme" ng-class="{me:v.isme}"><img src="{{ziji}}" alt="">
+		</div>
+		<div class="xinxi" ng-class="{me:v.isme}">
+			
+			<h6>{{v.xinxi}}</h6>
+			
+		</div>
+	</li>
+   </ul>
+</div>

@@ -1,0 +1,17 @@
+{
+  "name": "jingdong",
+  "version": "1.0.0",
+  "description": "jd",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wiredep": "^4.0.0"
+  }
+}

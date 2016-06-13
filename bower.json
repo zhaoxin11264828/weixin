@@ -1,0 +1,26 @@
+{
+  "name": "jingdong",
+  "authors": [
+    "赵欣 <1140362791@qq.com>"
+  ],
+  "description": "jd index for weixin",
+  "main": "index.html",
+  "keywords": [
+    "jd"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6",
+    "touch.code.baidu.com": "Clouda-team/touch.code.baidu.com",
+    "Swiper": "swiper#^3.3.1"
+  }
+}

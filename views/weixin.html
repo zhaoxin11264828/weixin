@@ -1,0 +1,26 @@
+<div class="list" id="weixin" ng-controller="indexCtrl">
+  <ul>
+	<li class="item donghua" ng-repeat="v in list1" ng-init="show=false" ng-class="{showdelete:show}" ng-swipe-left="show=true" ng-swipe-right="show=false">
+	<a href="#/weixin/{{$index}}">
+		<div class="img"><img src="{{v.img}}" alt="">
+		<div class="tip icon-shixinxiaoyuandian"></div></div>
+		<div class="xinxi">
+			<h5>{{v.name}}
+				
+			</h5>
+			
+			<h6>{{v.message}}</h6>
+			
+		</div>
+		<div class="time">
+			<span>早上8:56</span>
+		</div>
+    </a>
+	<div class="delete" ng-click="delete(v)">
+			
+		</div>	
+		
+	</li>
+	
+   </ul>
+</div>

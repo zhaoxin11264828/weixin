@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="weixin">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+
+	<title>weixin</title>
+	<!-- bower:css -->
+	<!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" /> -->
+	<link rel="stylesheet" href="./css/index.css">
+	 <link rel="stylesheet" href="bower_components/Swiper/dist/css/swiper.css"> -->
+	<!-- endbower -->
+	
+	<script src="./js/angular.js"></script>
+	<script src="./js/angular-animate.js"></script>
+	<script src="./js/angular-route.js"></script>
+
+	<!--<script src="https://cdn.bootcss.com/angular-touch/1.5.6/angular-touch.js"></script>-->
+	
+	<script src="./js/jquery-1.12.0.js"></script>
+     <script src="./js/index.js"></script>
+</head>
+<body ng-controller="mainCtrl">
+<div class="weixin">
+
+<!-- 首页 微信 -->
+
+<!-- 导航 -->
+<uq-title></uq-title>
+
+<!-- 对话列表 -->
+<!-- item上添加active类 出现tip -->
+<ng-view id="view"></ng-view>
+
+<!-- footer -->
+<!-- 添加active 类 当前页  添加xinxi类 出现提示 -->
+<uq-tab-bar></uq-tab-bar>
+
+<!-- 加号点击 框 -->
+<!-- 添加dianji类显示 -->
+<div class="tianjia">
+	<div class="item">
+		<div class="icon icon-faqiqunliao"></div>
+		<div class="name">发起群聊</div>
+	</div>
+	<div class="item">
+		<div class="icon icon-wo"></div>
+		<div class="name">添加朋友</div>
+	</div>
+	<div class="item">
+		<div class="icon icon-saoyisao"></div>
+		<div class="name">扫一扫</div>
+	</div>
+	<div class="item">
+		<div class="icon icon-message"></div>
+		<div class="name">收付款</div>
+	</div>
+	<div class="item">
+		<div class="icon icon-message"></div>
+		<div class="name">帮助和反馈</div>
+	</div>
+</div>
+
+
+<!-- 发现页面 -->
+<!-- 添加xianshi 类 打开发现页面 -->
+
+
+
+<!-- 个人页面 -->
+
+
+<!-- 朋友圈 -->
+<!-- 头部导航 -->
+<div class="pengyou">
+<div class="nav2">
+
+	<div class="navleft">
+
+		<div class="add icon-fanhui"></div>
+		<span>朋友圈</span>
+	</div>
+	<div class="navright">
+		
+		<div class="serch icon-paizhao"></div>
+	</div>
+</div>
+
+<!-- main -->
+<div class="pyq">
+	<div class="beijing">
+		<div class="name">
+			<span>name</span>
+		</div>
+		<div class="touxiang">
+
+		</div>
+	</div>
+
+	<ul class="dongtai">
+		<li class="tiao">
+			<div class="left">
+				<div class="img">
+
+				</div>
+			</div>
+			<div class="right">
+				<h5 class="name">吃饱了的海带</h5>
+				<div class="neirong">
+					<span >lalalalalalalalala  多么美好的世界  快来寻找属于你的幸福</span>
+				</div>
+				
+				<div class="card">
+					<div class="img">
+						
+					</div>
+					<div class="wz">
+						<span>你找到了吗！</span>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="tiao">
+			<div class="left">
+				<div class="img">
+
+				</div>
+			</div>
+			<div class="right">
+				<h5 class="name">吃饱了的海带</h5>
+				<div class="neirong">
+					<span >lalalalalalalalala  多么美好的世界  快来寻找属于你的幸福</span>
+				</div>
+				
+				<div class="card">
+					<div class="img">
+						
+					</div>
+					<div class="wz">
+						<span>你找到了吗！</span>
+					</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+
+</div>
+
+</div>
+
+<!-- 通讯录 -->
+
+
+
+
+</div>
+
+
+</body>
+<!-- bower:js -->
+<!-- <script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/Swiper/dist/js/swiper.js"></script> -->
+<!-- endbower -->
+</html>

@@ -1,0 +1,19 @@
+<div class="tongxunlu" id="tongxunlu" ng-controller="index2Ctrl">
+	<ul>
+		<li ng-repeat="v in list2" data-key="{{v.key}}">
+			<span class="key">{{v.key}}</span>
+			<ul>
+				<li class="lianxiren" ng-repeat="m in v.people">
+					<div class="img">
+						
+					</div>
+					<span class="name">
+						{{m.name}}
+					</span>
+				</li>
+			</ul>
+		</li>
+	</ul>
+<uq-list></uq-list>
+	
+</div>
